@@ -1,0 +1,17 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+format: jb-book
+root: intro
+chapters:
+- file: nextgen
+- file: cpt 
+- file: installation
+- file: configuration
+- file: running
+- file: MME
+- file: references
+#- file: content
+#  sections:
+#    - file: markdown
+#    - file: notebooks
