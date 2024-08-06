@@ -33,9 +33,9 @@ Basic familiarity with Python, seasonal climate forecasting, and IRI's [Climate 
 
 __Acknowledgments__
 
-The guide to PyCPT2.8 for Seasonal Climate Forecasts and its associated teaching and learning materials represents a collaborative effort, made possible by the IRI’s dedicated team of climate, sectoral, and technical experts in collaboration with the Accelerating Impacts of CGIAR Climate Research for Africa (AICCRA) project.
+The guide to PyCPT2.8 for Seasonal Climate Forecasts and its associated teaching and learning materials represents a collaborative effort, made possible by the IRI’s dedicated team of climate, sectoral, and technical experts in collaboration with the Enhancing Adaptive Capacity of Andean Communities through Climate Services (ENANDES) project.
 
-[Accelerating Impacts of CGIAR Climate Research for Africa (AICCRA)](https://aiccra.cgiar.org) is a project that helps deliver a climate-smart African future driven by science and innovation in agriculture. It is led by the Alliance of Biodiversity International and CIAT and supported by a grant from the International Development Association (IDA) of the World Bank.
+[Enhancing Adaptive Capacity of Andean Communities through Climate Services (ENANDES)](https://wmo.int/projects/enhancing-adaptive-capacity-of-andean-communities-through-climate-services-enandes) is a project that aims to increase the resilience and adaptive capacity to climate variability and change of highly vulnerable communities living in the Andes. It is led by the World Meteorological Organization (WMO) and supported by the Adaptation Fund.
 
 %## Useful resources
 

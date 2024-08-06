@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Running PyCPT 2.8 &#8212; Guide to PyCPT 2.8 for Central Chile Seasonal Climate Forecasts</title>
+    <title>Running PyCPT 2.8 &#8212; Guide to PyCPT 2.5 for Seasonal Climate Forecasts</title>
   
   
   
@@ -155,8 +155,8 @@
       
     
     
-    <img src="_static/pycpt_logo.png" class="logo__image only-light" alt="Guide to PyCPT 2.8 for Central Chile Seasonal Climate Forecasts - Home"/>
-    <script>document.write(`<img src="_static/pycpt_logo.png" class="logo__image only-dark" alt="Guide to PyCPT 2.8 for Central Chile Seasonal Climate Forecasts - Home"/>`);</script>
+    <img src="_static/pycpt_logo_revised_2.png" class="logo__image only-light" alt="Guide to PyCPT 2.5 for Seasonal Climate Forecasts - Home"/>
+    <script>document.write(`<img src="_static/pycpt_logo_revised_2.png" class="logo__image only-dark" alt="Guide to PyCPT 2.5 for Seasonal Climate Forecasts - Home"/>`);</script>
   
   
 </a></div>
@@ -402,8 +402,8 @@ Models with high cc coefficients and interpretable mappings are preferable
 <p class="admonition-title">Some math</p>
 <p>CCA diagonalizes the regression matrix <span class="math notranslate nohighlight">\(\widetilde{\widetilde{A}}\)</span> by transforming the predictor and predictand vectors <span class="math notranslate nohighlight">\(\widetilde{Y} = \widetilde{\widetilde{A}} \widetilde{X}\)</span>, such that the leading diagonal elements of <span class="math notranslate nohighlight">\(\widetilde{\widetilde{A}}\)</span> become the canonical correlation coefficients <span class="math notranslate nohighlight">\(\rho(k)\)</span> where <span class="math notranslate nohighlight">\(k\)</span> denotes the mode number.</p>
 <p>The gridpoint forecast value of the predictand <span class="math notranslate nohighlight">\(Y^f(x,y)\)</span> is given by the inner product of the GCM prediction field <span class="math notranslate nohighlight">\(\widetilde{X}^f\)</span> with the X CCA modes <span class="math notranslate nohighlight">\(\widetilde{U}_k\)</span> , times the canonical correlation, times the local value of the Y CCA mode <span class="math notranslate nohighlight">\(V_k(x,y),\)</span>  summed over all the CCA modes that are retained by CPT:</p>
-<div class="amsmath math notranslate nohighlight" id="equation-289f7628-6f3e-48ce-be5a-7305093b6204">
-<span class="eqno">(1)<a class="headerlink" href="#equation-289f7628-6f3e-48ce-be5a-7305093b6204" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-0c094269-fa6a-4f28-b4f8-1a1f4831064c">
+<span class="eqno">(1)<a class="headerlink" href="#equation-0c094269-fa6a-4f28-b4f8-1a1f4831064c" title="Permalink to this equation">#</a></span>\[\begin{equation}
 Y^f(x,y) = \sum_k \rho(k) \langle \widetilde{X}^f , \widetilde{U}_k \rangle V_k(x,y). 
 \end{equation}\]</div>
 <p>In other words, to get the forecast value at any point, we first project the GCM’s forecast field onto the X CCA mode, and then multiply this scalar value by both the canonical correlation value and by the local amplitude of the CCA Y mode. A strong projection and large canonical correlation coefficient, together with a large local amplitude of the CCA Y mode are <strong>all</strong> required for the local forecast anomaly to be large.  If any of these are small, the contribution of this CCA mode to the forecast will be small.</p>

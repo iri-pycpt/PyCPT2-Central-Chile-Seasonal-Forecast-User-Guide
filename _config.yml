@@ -1,11 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Guide to PyCPT 2.8 for Central Chile Seasonal Climate Forecasts
+title: Guide to PyCPT 2.5 for Seasonal Climate Forecasts
 author: IRI Climate Group
 # author: Andrew Robertson, Azhar Ehsan, Aaron Kaplan, Simon Mason, Ángel Muñoz, Bohar Singh, Sylwia Trzaska, Jonathan Block, IRI
 # logo: logo.png
-logo: img/pycpt_logo.png
+logo: img/pycpt_logo_revised_2.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
