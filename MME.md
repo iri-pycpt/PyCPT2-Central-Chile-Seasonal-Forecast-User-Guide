@@ -5,7 +5,7 @@ First we need to select a subset of GCMs to include in the MME. Factors to consi
 - their CCA/EOF modes: The CCA modes of each model should be physically interpretable and the CC coefficient should generally be about 0.4 or more.
 - the forecast maps: Any differences in polarity between models should be confirmed by looking at the global maps from the NMME and C3S websites.  
 
-Although the CanSIPSIC3 model skill is low in our Central Chile example, we will still include it in our two-model MME for demonstration purposes.
+Although the CanSIPSIC3 model skill is low in our Central Chile Example, we will still include it in our two-model MME for demonstration purposes.
 
 ```python
 ensemble = ['CanSIPSIC3.PRCP, 'CFSv2.PRCP']
